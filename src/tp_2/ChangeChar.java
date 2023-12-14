@@ -16,8 +16,8 @@ public class ChangeChar {
 		System.out.println("Original chain : " + originalString + "\nModified chain : " + changedString);
 		}
 	
-	private static 	String changeChar(String chain) {
-		char[] caracteres = chain.toCharArray();
+	private static 	String changeChar(String word) {
+		char[] caracteres = word.toCharArray();
 		for(int i = 1; i < caracteres.length; i += 2) {
 			caracteres[i] = '*';
 		}
