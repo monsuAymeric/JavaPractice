@@ -2,7 +2,7 @@ package tp_2.LibraryAndBooks;
 
 public class CreateBook {
 
-	//Création des objets
+	//Création des instances de la classe Book
 	
 	public static Book livre1() {
 		return new Book("Le retour de l'IDE blanc Tome 1",
