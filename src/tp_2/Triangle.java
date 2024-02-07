@@ -14,7 +14,7 @@ package tp_2;
                     this.SecondeSide = SecondeSide;
                     this.ThirdSide = ThirdSide;
             } else {
-                throw new IllegalArgumentException("Les cotés données ne dorment pas un triangle valide");
+                throw new IllegalArgumentException("Les cotés données ne forment pas un triangle valide");
             }
         }
 
