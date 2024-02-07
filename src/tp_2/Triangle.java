@@ -38,8 +38,11 @@ package tp_2;
         public static void main (String[] args) {
             //Create objects
             Triangle triangle1 = new Triangle(5, 4, 7);
-        
+
             //Display Perimetre
+            System.out.println("Perimetre = " + triangle1.CalculPerimetre() + "cm");
+        
+            //Display Aire
             triangle1.CalculAire();
         
             //Display Aire
